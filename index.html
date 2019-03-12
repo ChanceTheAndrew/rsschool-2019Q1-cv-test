@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Andrei Burko - CV</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
 <meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
 </head>
+<body class="top">
+<div class="instaFade cv">
+	<div class="mainDetails">
+		<div class="quickFade headshot">
+			<img src="https://pp.userapi.com/c852232/v852232984/d9504/UDQKn0HJnoY.jpg" alt="Andrei Burko" />
+		</div>
+		
+		<div class="name">
+			<h1 class="quickFade delayTwo">Andrei Burko</h1>
+			<h2 class="quickFade delayThree">Front-end developer</h2>
+		</div>
+		
+		<div  class="quickFade delayFour contactDetails">
+			<ul>
+				<li>email: <a href="andreiburko99@gmail.com" target="_blank">andreiburko99@gmail.com</a></li>
+				<li>vk: <a href="http://www.vk.com/andreiburko">/andreiburko</a></li>
+				<li>tel: +375447799535</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div class="quickFade delayFive mainArea">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Summary</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Courteous and enthusiastic, I am interested in IT and everything in its orbit. I recently began to be fascinated by web programming, e.g. developing apps and building websites. As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among their developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team. I am therefore currently looking for a job or an internship as a front-end developer.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
 
-<body>
+					<li>JavaScript</li>
+					<li>jQuery</li>
+					<li>Node.js</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>Bootstrap</li>
+					<li>C#</li>
+					<li>C++</li>
+					<li>Java</li>
+					<li>Delphi</li>
+					<li>SQL</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
 
+		<section>
+				<div class="sectionTitle">
+					<h1>Code Example</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<article>
+						<h2>JavaScript</h2>
+						<p class="subDetails">Task from padawans</p>
+						<p><pre>
+module.exports = function getLoveTrianglesCount(preferences = []) { 
+	var count = 0; 
+	for (var i = 0; i < preferences.length; i++) {
+		var a = preferences[i], b = preferences[a - 1], c = preferences[b - 1];
+		if (preferences[i] == 'Checked') continue;
+		if (c == i + 1 && isArrayDigitsDifferent([a, b, c])) {
+			count++;
+			preferences[i] = preferences[a - 1] = preferences[b - 1] = 'Checked
+		}
+	    }
+		return count;
+	};
+	function isArrayDigitsDifferent(array = []) {
+		return array.every((el, i, arr) => el != arr[i - 1]);
+		}</pre></p>
+					</article>
+					
+				</div>
+				<div class="clear"></div>
+			</section>
+
+			<section>
+					<div class="sectionTitle">
+						<h1>Experience</h1>
+					</div>
+					
+					<div class="sectionContent">
+						<article>
+							<!-- <h2>Experience</h2> -->
+							<p class="subDetails">September 2016 - Present</p>
+							<p>Experience in non-commercial projects, for example, in labs, course projects. </p>
+						</article>
+						
+					</div>
+					<div class="clear"></div>
+				</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>University</h2>
+					<p class="subDetails">Software engineer</p>
+					<p>Belarusian State University of Informatics and Radioelectronics, Faculty Of Computer-Aided Design</p>
+				</article>
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+				<div class="sectionTitle">
+					<h1>English level</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<article>
+
+						<p class="subDetails">Pre-Intermediate</p>
+						<p>Streamline courses</p>
+					</article>
+					
+				</div>
+				<div class="clear"></div>
+			</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
 </body>
+</html>
